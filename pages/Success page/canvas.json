@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 59,
+          "version": 71,
           "minHeight": 670,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -140,6 +140,7 @@
                       "isDisabled": false,
                       "key": "kbnk4w7evq",
                       "labelTextSize": "0.875rem",
+                      "sourceDataKeys": [],
                       "rightColumn": 63,
                       "iconName": "menu",
                       "menuVariant": "TERTIARY",
@@ -190,6 +191,7 @@
                       "isLoading": false,
                       "borderRadius": "0.900rem",
                       "menuColor": "#2E3D49",
+                      "menuItemsSource": "STATIC",
                       "iconAlign": "right",
                       "placement": "START"
                     },
@@ -221,6 +223,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 45,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "ukbuvbas5t",
                       "isVisible": true,
                       "fontStyle": "BOLD",
@@ -230,7 +233,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
-                      "fontSize": "1.7rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1.7rem",
+                      "minDynamicHeight": 4
                     }
                   ],
                   "key": "fmvzk8n19t",
@@ -253,6 +258,7 @@
               "backgroundColor": "#D7F7FF",
               "isDeprecated": false,
               "rightColumn": 57,
+              "dynamicHeight": "FIXED",
               "widgetId": "hnfjnu3abz",
               "containerStyle": "card",
               "isVisible": true,
@@ -260,7 +266,9 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "borderRadius": "1.500rem"
+              "borderRadius": "1.500rem",
+              "maxDynamicHeight": 9000,
+              "minDynamicHeight": 4
             },
             {
               "boxShadow": "none",
@@ -1798,6 +1806,7 @@
                                       "labelTextSize": "0.875rem",
                                       "rightColumn": 38,
                                       "textAlign": "LEFT",
+                                      "dynamicHeight": "FIXED",
                                       "widgetId": "ns43ywk0kq",
                                       "logBlackList": {
                                         "isVisible": true,
@@ -1838,7 +1847,9 @@
                                       "renderMode": "CANVAS",
                                       "isLoading": false,
                                       "borderRadius": "0px",
-                                      "fontSize": "1rem"
+                                      "maxDynamicHeight": 9000,
+                                      "fontSize": "1rem",
+                                      "minDynamicHeight": 4
                                     },
                                     {
                                       "boxShadow": "none",
@@ -1862,6 +1873,7 @@
                                       "labelTextSize": "0.875rem",
                                       "rightColumn": 21,
                                       "textAlign": "LEFT",
+                                      "dynamicHeight": "FIXED",
                                       "widgetId": "pdlxfk7ok1",
                                       "logBlackList": {
                                         "isVisible": true,
@@ -1905,8 +1917,10 @@
                                       "renderMode": "CANVAS",
                                       "isLoading": false,
                                       "borderRadius": "0px",
+                                      "maxDynamicHeight": 9000,
                                       "fontSize": "1rem",
-                                      "textStyle": "HEADING"
+                                      "textStyle": "HEADING",
+                                      "minDynamicHeight": 4
                                     },
                                     {
                                       "boxShadow": "none",
@@ -1930,6 +1944,7 @@
                                       "labelTextSize": "0.875rem",
                                       "rightColumn": 21,
                                       "textAlign": "LEFT",
+                                      "dynamicHeight": "FIXED",
                                       "widgetId": "iuwsw8y7ya",
                                       "logBlackList": {
                                         "isVisible": true,
@@ -1973,8 +1988,10 @@
                                       "renderMode": "CANVAS",
                                       "isLoading": false,
                                       "borderRadius": "0px",
+                                      "maxDynamicHeight": 9000,
                                       "fontSize": "1rem",
-                                      "textStyle": "HEADING"
+                                      "textStyle": "HEADING",
+                                      "minDynamicHeight": 4
                                     },
                                     {
                                       "boxShadow": "none",
@@ -1998,6 +2015,7 @@
                                       "labelTextSize": "0.875rem",
                                       "rightColumn": 21,
                                       "textAlign": "LEFT",
+                                      "dynamicHeight": "FIXED",
                                       "widgetId": "03dmrnvluv",
                                       "logBlackList": {
                                         "isVisible": true,
@@ -2041,8 +2059,10 @@
                                       "renderMode": "CANVAS",
                                       "isLoading": false,
                                       "borderRadius": "0px",
+                                      "maxDynamicHeight": 9000,
                                       "fontSize": "1rem",
-                                      "textStyle": "HEADING"
+                                      "textStyle": "HEADING",
+                                      "minDynamicHeight": 4
                                     },
                                     {
                                       "boxShadow": "none",
@@ -2131,6 +2151,7 @@
                                       "labelTextSize": "0.875rem",
                                       "rightColumn": 47,
                                       "textAlign": "LEFT",
+                                      "dynamicHeight": "FIXED",
                                       "widgetId": "szzghhiuas",
                                       "logBlackList": {
                                         "isVisible": true,
@@ -2171,7 +2192,9 @@
                                       "renderMode": "CANVAS",
                                       "isLoading": false,
                                       "borderRadius": "0px",
-                                      "fontSize": "1rem"
+                                      "maxDynamicHeight": 9000,
+                                      "fontSize": "1rem",
+                                      "minDynamicHeight": 4
                                     },
                                     {
                                       "boxShadow": "none",
@@ -2201,6 +2224,7 @@
                                       "labelTextSize": "0.875rem",
                                       "rightColumn": 47,
                                       "textAlign": "LEFT",
+                                      "dynamicHeight": "FIXED",
                                       "widgetId": "vdv8dfw0fp",
                                       "logBlackList": {
                                         "isVisible": true,
@@ -2241,7 +2265,9 @@
                                       "renderMode": "CANVAS",
                                       "isLoading": false,
                                       "borderRadius": "0px",
-                                      "fontSize": "1rem"
+                                      "maxDynamicHeight": 9000,
+                                      "fontSize": "1rem",
+                                      "minDynamicHeight": 4
                                     }
                                   ],
                                   "key": "ffadum178l",
@@ -2263,6 +2289,7 @@
                               "labelTextSize": "0.875rem",
                               "backgroundColor": "white",
                               "rightColumn": 64,
+                              "dynamicHeight": "FIXED",
                               "widgetId": "uxulxfzb8w",
                               "containerStyle": "card",
                               "isVisible": true,
@@ -2270,7 +2297,9 @@
                               "parentId": "gn6lowzfuo",
                               "renderMode": "CANVAS",
                               "isLoading": false,
-                              "borderRadius": "0px"
+                              "borderRadius": "0px",
+                              "maxDynamicHeight": 9000,
+                              "minDynamicHeight": 4
                             }
                           ],
                           "key": "ffadum178l",
@@ -2288,13 +2317,7 @@
                         }
                       ],
                       "privateWidgets": {
-                        "Text1Copy": true,
-                        "Text2CopyCopyCopy1": true,
-                        "Text2CopyCopyCopy3": true,
-                        "Text2CopyCopy": true,
-                        "DeleteListItem2": true,
-                        "Text1": true,
-                        "Text2": true
+                        "undefined": true
                       },
                       "key": "bkegg2s7tq",
                       "labelTextSize": "0.875rem",
@@ -2338,6 +2361,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 39,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "vgkqyp0dex",
                       "isVisible": true,
                       "fontStyle": "BOLD",
@@ -2347,7 +2371,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
-                      "fontSize": "1.5rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1.5rem",
+                      "minDynamicHeight": 4
                     }
                   ],
                   "key": "ffadum178l",
@@ -2369,6 +2395,7 @@
               "labelTextSize": "0.875rem",
               "backgroundColor": "#FFFFFF",
               "rightColumn": 35,
+              "dynamicHeight": "FIXED",
               "widgetId": "65vbxg9nix",
               "containerStyle": "card",
               "isVisible": "{{Checkbox1.isChecked}}",
@@ -2376,7 +2403,9 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "borderRadius": "15px"
+              "borderRadius": "15px",
+              "maxDynamicHeight": 9000,
+              "minDynamicHeight": 4
             },
             {
               "boxShadow": "none",
@@ -2445,6 +2474,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 25,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "dz8w3wgvlc",
                       "logBlackList": {
                         "isVisible": true,
@@ -2488,8 +2518,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
                       "fontSize": "1rem",
-                      "textStyle": "HEADING"
+                      "textStyle": "HEADING",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -2519,6 +2551,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 60,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "9r5ewgddek",
                       "logBlackList": {
                         "isVisible": true,
@@ -2559,7 +2592,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
-                      "fontSize": "1rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1rem",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -2589,6 +2624,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 60,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "kwzls7immn",
                       "logBlackList": {
                         "isVisible": true,
@@ -2629,7 +2665,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
-                      "fontSize": "1rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1rem",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -2653,6 +2691,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 25,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "lp4r8y6rtr",
                       "logBlackList": {
                         "isVisible": true,
@@ -2696,8 +2735,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
                       "fontSize": "1rem",
-                      "textStyle": "HEADING"
+                      "textStyle": "HEADING",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -2727,6 +2768,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 62,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "1bls4dhdi5",
                       "logBlackList": {
                         "isVisible": true,
@@ -2767,7 +2809,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
-                      "fontSize": "1rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1rem",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -2797,6 +2841,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 62,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "02ml3gc10n",
                       "logBlackList": {
                         "isVisible": true,
@@ -2837,7 +2882,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
-                      "fontSize": "1rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1rem",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -2867,6 +2914,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 62,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "8tlnrw8380",
                       "logBlackList": {
                         "isVisible": true,
@@ -2907,7 +2955,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
-                      "fontSize": "1rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1rem",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -2931,6 +2981,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 25,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "lnycljyzi3",
                       "logBlackList": {
                         "isVisible": true,
@@ -2974,8 +3025,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
                       "fontSize": "1rem",
-                      "textStyle": "HEADING"
+                      "textStyle": "HEADING",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -2999,6 +3052,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 25,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "88b6zy0pxd",
                       "logBlackList": {
                         "isVisible": true,
@@ -3042,8 +3096,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
                       "fontSize": "1rem",
-                      "textStyle": "HEADING"
+                      "textStyle": "HEADING",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -3067,6 +3123,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 25,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "bahmsvtjfi",
                       "logBlackList": {
                         "isVisible": true,
@@ -3110,8 +3167,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
                       "fontSize": "1rem",
-                      "textStyle": "HEADING"
+                      "textStyle": "HEADING",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -3135,6 +3194,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 25,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "4xs4ke0aop",
                       "logBlackList": {
                         "isVisible": true,
@@ -3178,8 +3238,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
                       "fontSize": "1rem",
-                      "textStyle": "HEADING"
+                      "textStyle": "HEADING",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -3213,6 +3275,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 50,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "nr1sxpcyty",
                       "isVisible": true,
                       "fontStyle": "BOLD",
@@ -3222,7 +3285,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
-                      "fontSize": "1.5rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1.5rem",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -3260,6 +3325,7 @@
                       "isRequired": false,
                       "defaultDate": "{{List2.selectedItem.request_date || ''}}",
                       "rightColumn": 62,
+                      "dynamicHeight": "FIXED",
                       "widgetId": "0ekla74gm9",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
@@ -3271,9 +3337,11 @@
                       "isLoading": false,
                       "timePrecision": "minute",
                       "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
                       "firstDayOfWeek": 0,
                       "closeOnSelection": true,
-                      "maxDate": "2121-12-31T18:29:00.000Z"
+                      "maxDate": "2121-12-31T18:29:00.000Z",
+                      "minDynamicHeight": 4
                     }
                   ],
                   "key": "ffadum178l",
@@ -3295,6 +3363,7 @@
               "labelTextSize": "0.875rem",
               "backgroundColor": "#FFFFFF",
               "rightColumn": 57,
+              "dynamicHeight": "FIXED",
               "widgetId": "ekm5oi9io1",
               "containerStyle": "card",
               "isVisible": "{{List1.isVisible}}",
@@ -3302,7 +3371,9 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "borderRadius": "15px"
+              "borderRadius": "15px",
+              "maxDynamicHeight": 9000,
+              "minDynamicHeight": 4
             },
             {
               "boxShadow": "none",
@@ -3448,6 +3519,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 62,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "oa9yyw37m9",
                       "isVisible": true,
                       "fontStyle": "",
@@ -3457,7 +3529,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
-                      "fontSize": "1.125rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1.125rem",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -3487,6 +3561,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 40,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "1u3ria0s3e",
                       "isVisible": true,
                       "fontStyle": "BOLD",
@@ -3496,7 +3571,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
-                      "fontSize": "1.5rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1.5rem",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -3520,6 +3597,7 @@
                       "labelTextSize": "1.25rem",
                       "isRequired": false,
                       "rightColumn": 4,
+                      "dynamicHeight": "FIXED",
                       "widgetId": "rut9ywis94",
                       "accentColor": "#3b82f6",
                       "isVisible": true,
@@ -3529,7 +3607,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0.375rem",
-                      "defaultCheckedState": false
+                      "defaultCheckedState": false,
+                      "maxDynamicHeight": 9000,
+                      "minDynamicHeight": 4
                     }
                   ],
                   "key": "ffadum178l",
@@ -3551,6 +3631,7 @@
               "labelTextSize": "0.875rem",
               "backgroundColor": "#FFFFFF",
               "rightColumn": 57,
+              "dynamicHeight": "FIXED",
               "widgetId": "mkyebojfg4",
               "containerStyle": "card",
               "isVisible": true,
@@ -3558,7 +3639,9 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "borderRadius": "15px"
+              "borderRadius": "15px",
+              "maxDynamicHeight": 9000,
+              "minDynamicHeight": 4
             }
           ]
         },
@@ -3574,6 +3657,7 @@
             }
           ]
         ],
+        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Success page",
         "deleted": false,

@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 59,
+          "version": 71,
           "minHeight": 670,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -140,6 +140,7 @@
                       "isDisabled": false,
                       "key": "kbnk4w7evq",
                       "labelTextSize": "0.875rem",
+                      "sourceDataKeys": [],
                       "rightColumn": 63,
                       "iconName": "menu",
                       "menuVariant": "TERTIARY",
@@ -190,6 +191,7 @@
                       "isLoading": false,
                       "borderRadius": "0.900rem",
                       "menuColor": "#2E3D49",
+                      "menuItemsSource": "STATIC",
                       "iconAlign": "right",
                       "placement": "START"
                     },
@@ -221,6 +223,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 45,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "uqmc7hxolp",
                       "isVisible": true,
                       "fontStyle": "BOLD",
@@ -230,7 +233,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
-                      "fontSize": "1.7rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1.7rem",
+                      "minDynamicHeight": 4
                     }
                   ],
                   "key": "fmvzk8n19t",
@@ -253,6 +258,7 @@
               "backgroundColor": "#D7F7FF",
               "isDeprecated": false,
               "rightColumn": 57,
+              "dynamicHeight": "FIXED",
               "widgetId": "y0ds8tevn5",
               "containerStyle": "card",
               "isVisible": true,
@@ -260,7 +266,9 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "borderRadius": "1.500rem"
+              "borderRadius": "1.500rem",
+              "maxDynamicHeight": 9000,
+              "minDynamicHeight": 4
             },
             {
               "boxShadow": "none",
@@ -329,6 +337,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 22,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "bn4rmw6n3y",
                       "logBlackList": {
                         "isVisible": true,
@@ -372,8 +381,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
                       "fontSize": "0.875rem",
-                      "textStyle": "HEADING"
+                      "textStyle": "HEADING",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -403,6 +414,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 62,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "pge8j06qho",
                       "logBlackList": {
                         "isVisible": true,
@@ -443,7 +455,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
-                      "fontSize": "0.875rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "0.875rem",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -473,6 +487,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 62,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "8ur3kwd45v",
                       "logBlackList": {
                         "isVisible": true,
@@ -513,7 +528,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
-                      "fontSize": "0.875rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "0.875rem",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -537,6 +554,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 22,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "jfjf706h0v",
                       "logBlackList": {
                         "isVisible": true,
@@ -580,8 +598,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
                       "fontSize": "0.875rem",
-                      "textStyle": "HEADING"
+                      "textStyle": "HEADING",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -650,6 +670,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 48,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "ptff0j38cr",
                       "logBlackList": {
                         "isVisible": true,
@@ -690,7 +711,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
-                      "fontSize": "0.875rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "0.875rem",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -720,6 +743,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 48,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "ssa9q1elau",
                       "logBlackList": {
                         "isVisible": true,
@@ -760,7 +784,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
-                      "fontSize": "0.875rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "0.875rem",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -790,6 +816,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 62,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "kp1mj65x5i",
                       "logBlackList": {
                         "isVisible": true,
@@ -830,7 +857,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
-                      "fontSize": "0.875rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "0.875rem",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -860,6 +889,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 50,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "gmg1ivhfm0",
                       "logBlackList": {
                         "isVisible": true,
@@ -900,7 +930,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
-                      "fontSize": "0.875rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "0.875rem",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -924,6 +956,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 32,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "ib7kr7f0jh",
                       "logBlackList": {
                         "isVisible": true,
@@ -967,8 +1000,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
                       "fontSize": "0.875rem",
-                      "textStyle": "HEADING"
+                      "textStyle": "HEADING",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -992,6 +1027,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 32,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "ndyujyxi1p",
                       "logBlackList": {
                         "isVisible": true,
@@ -1035,8 +1071,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
                       "fontSize": "0.875rem",
-                      "textStyle": "HEADING"
+                      "textStyle": "HEADING",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -1060,6 +1098,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 22,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "yt7s5576e2",
                       "logBlackList": {
                         "isVisible": true,
@@ -1103,8 +1142,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
                       "fontSize": "0.875rem",
-                      "textStyle": "HEADING"
+                      "textStyle": "HEADING",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -1128,6 +1169,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 34,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "ze5w5a31u2",
                       "logBlackList": {
                         "isVisible": true,
@@ -1171,8 +1213,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
                       "fontSize": "0.875rem",
-                      "textStyle": "HEADING"
+                      "textStyle": "HEADING",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -1196,6 +1240,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 32,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "8t5001b4qm",
                       "logBlackList": {
                         "isVisible": true,
@@ -1239,8 +1284,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
                       "fontSize": "0.875rem",
-                      "textStyle": "HEADING"
+                      "textStyle": "HEADING",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -1264,6 +1311,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 32,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "76vqc007ok",
                       "logBlackList": {
                         "isVisible": true,
@@ -1307,8 +1355,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
                       "fontSize": "0.875rem",
-                      "textStyle": "HEADING"
+                      "textStyle": "HEADING",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -1332,6 +1382,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 20,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "s4uft3l3q1",
                       "logBlackList": {
                         "isVisible": true,
@@ -1375,8 +1426,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
                       "fontSize": "0.875rem",
-                      "textStyle": "HEADING"
+                      "textStyle": "HEADING",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -1400,6 +1453,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 20,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "i6kyhs6vy9",
                       "logBlackList": {
                         "isVisible": true,
@@ -1443,8 +1497,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
                       "fontSize": "0.875rem",
-                      "textStyle": "HEADING"
+                      "textStyle": "HEADING",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -1468,6 +1524,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 22,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "gbc1oswmqn",
                       "logBlackList": {
                         "isVisible": true,
@@ -1511,8 +1568,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
                       "fontSize": "0.875rem",
-                      "textStyle": "HEADING"
+                      "textStyle": "HEADING",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -1536,6 +1595,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 22,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "4g61grbh18",
                       "logBlackList": {
                         "isVisible": true,
@@ -1579,8 +1639,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
                       "fontSize": "0.875rem",
-                      "textStyle": "HEADING"
+                      "textStyle": "HEADING",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -1614,6 +1676,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 52,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "lmm6slhsf7",
                       "isVisible": true,
                       "fontStyle": "BOLD",
@@ -1623,7 +1686,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
-                      "fontSize": "1.5rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1.5rem",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -1661,6 +1726,7 @@
                       "isRequired": false,
                       "defaultDate": "{{List.selectedItem.request_date}}",
                       "rightColumn": 62,
+                      "dynamicHeight": "FIXED",
                       "widgetId": "palc2tsgen",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
@@ -1672,9 +1738,11 @@
                       "isLoading": false,
                       "timePrecision": "minute",
                       "borderRadius": "0.375rem",
+                      "maxDynamicHeight": 9000,
                       "firstDayOfWeek": 0,
                       "closeOnSelection": true,
-                      "maxDate": "2121-12-31T18:29:00.000Z"
+                      "maxDate": "2121-12-31T18:29:00.000Z",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -1708,6 +1776,7 @@
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "rightColumn": 61,
+                      "dynamicHeight": "FIXED",
                       "widgetId": "qdf6880f2m",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
@@ -1717,8 +1786,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0.375rem",
+                      "maxDynamicHeight": 9000,
                       "iconAlign": "left",
-                      "defaultText": "{{List.selectedItem.maintenance_notes}}"
+                      "defaultText": "{{List.selectedItem.maintenance_notes}}",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -1733,7 +1804,7 @@
                       "type": "SELECT_WIDGET",
                       "serverSideFiltering": false,
                       "hideCard": false,
-                      "defaultOptionValue": "{{List.selectedItem.completed}}",
+                      "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( List.selectedItem.completed))(Select1.options, Select1.serverSideFiltering) }}",
                       "animateLoading": true,
                       "parentColumnSpace": 5.853515625,
                       "dynamicTriggerPathList": [],
@@ -1753,6 +1824,7 @@
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "rightColumn": 62,
+                      "dynamicHeight": "FIXED",
                       "widgetId": "flo3vc4t40",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
@@ -1760,7 +1832,9 @@
                       "parentId": "g9pdsx77ic",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "borderRadius": "0px"
+                      "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -1787,12 +1861,14 @@
                           "key": "accentColor"
                         }
                       ],
+                      "labelPosition": "Left",
                       "labelStyle": "",
                       "isDisabled": false,
                       "key": "3g9dnqeeie",
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "rightColumn": 62,
+                      "dynamicHeight": "FIXED",
                       "widgetId": "0b8eucqn68",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
@@ -1803,9 +1879,11 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
                       "decimals": 0,
                       "iconAlign": "left",
-                      "defaultText": "{{List.selectedItem.total_cost}}"
+                      "defaultText": "{{List.selectedItem.total_cost}}",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -1832,12 +1910,14 @@
                           "key": "accentColor"
                         }
                       ],
+                      "labelPosition": "Left",
                       "labelStyle": "",
                       "isDisabled": false,
                       "key": "3g9dnqeeie",
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "rightColumn": 62,
+                      "dynamicHeight": "FIXED",
                       "widgetId": "yiq8y8a6ys",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
@@ -1848,9 +1928,11 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
                       "decimals": 0,
                       "iconAlign": "left",
-                      "defaultText": "{{List.selectedItem.mat_cost}}"
+                      "defaultText": "{{List.selectedItem.mat_cost}}",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -1883,6 +1965,7 @@
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "rightColumn": 62,
+                      "dynamicHeight": "FIXED",
                       "widgetId": "i2is8rkq06",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
@@ -1892,8 +1975,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
                       "iconAlign": "left",
-                      "defaultText": "{{List.selectedItem.hours}}"
+                      "defaultText": "{{List.selectedItem.hours}}",
+                      "minDynamicHeight": 4
                     }
                   ],
                   "key": "ffadum178l",
@@ -1915,6 +2000,7 @@
               "labelTextSize": "0.875rem",
               "backgroundColor": "#FFFFFF",
               "rightColumn": 57,
+              "dynamicHeight": "FIXED",
               "widgetId": "ohnzpb146n",
               "containerStyle": "card",
               "isVisible": "{{List.selectedItem.work_id>0}}",
@@ -1922,7 +2008,9 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "borderRadius": "1.500rem"
+              "borderRadius": "1.500rem",
+              "maxDynamicHeight": 9000,
+              "minDynamicHeight": 4
             },
             {
               "boxShadow": "none",
@@ -3534,6 +3622,7 @@
                                       "labelTextSize": "0.875rem",
                                       "rightColumn": 40,
                                       "textAlign": "LEFT",
+                                      "dynamicHeight": "FIXED",
                                       "widgetId": "vm5cu39yr5",
                                       "logBlackList": {
                                         "isVisible": true,
@@ -3574,7 +3663,9 @@
                                       "renderMode": "CANVAS",
                                       "isLoading": false,
                                       "borderRadius": "0px",
-                                      "fontSize": "1rem"
+                                      "maxDynamicHeight": 9000,
+                                      "fontSize": "1rem",
+                                      "minDynamicHeight": 4
                                     },
                                     {
                                       "boxShadow": "none",
@@ -3604,6 +3695,7 @@
                                       "labelTextSize": "0.875rem",
                                       "rightColumn": 43,
                                       "textAlign": "LEFT",
+                                      "dynamicHeight": "FIXED",
                                       "widgetId": "4w63z1w68y",
                                       "logBlackList": {
                                         "isVisible": true,
@@ -3644,7 +3736,9 @@
                                       "renderMode": "CANVAS",
                                       "isLoading": false,
                                       "borderRadius": "0px",
-                                      "fontSize": "1rem"
+                                      "maxDynamicHeight": 9000,
+                                      "fontSize": "1rem",
+                                      "minDynamicHeight": 4
                                     },
                                     {
                                       "boxShadow": "none",
@@ -3668,6 +3762,7 @@
                                       "labelTextSize": "0.875rem",
                                       "rightColumn": 21,
                                       "textAlign": "LEFT",
+                                      "dynamicHeight": "FIXED",
                                       "widgetId": "zqon2j19mu",
                                       "logBlackList": {
                                         "isVisible": true,
@@ -3711,8 +3806,10 @@
                                       "renderMode": "CANVAS",
                                       "isLoading": false,
                                       "borderRadius": "0px",
+                                      "maxDynamicHeight": 9000,
                                       "fontSize": "0.875rem",
-                                      "textStyle": "HEADING"
+                                      "textStyle": "HEADING",
+                                      "minDynamicHeight": 4
                                     },
                                     {
                                       "boxShadow": "none",
@@ -3736,6 +3833,7 @@
                                       "labelTextSize": "0.875rem",
                                       "rightColumn": 21,
                                       "textAlign": "LEFT",
+                                      "dynamicHeight": "FIXED",
                                       "widgetId": "zl6tarqwcq",
                                       "logBlackList": {
                                         "isVisible": true,
@@ -3779,8 +3877,10 @@
                                       "renderMode": "CANVAS",
                                       "isLoading": false,
                                       "borderRadius": "0px",
+                                      "maxDynamicHeight": 9000,
                                       "fontSize": "0.875rem",
-                                      "textStyle": "HEADING"
+                                      "textStyle": "HEADING",
+                                      "minDynamicHeight": 4
                                     },
                                     {
                                       "boxShadow": "none",
@@ -3804,6 +3904,7 @@
                                       "labelTextSize": "0.875rem",
                                       "rightColumn": 21,
                                       "textAlign": "LEFT",
+                                      "dynamicHeight": "FIXED",
                                       "widgetId": "ttyhg2yzd9",
                                       "logBlackList": {
                                         "isVisible": true,
@@ -3847,8 +3948,10 @@
                                       "renderMode": "CANVAS",
                                       "isLoading": false,
                                       "borderRadius": "0px",
+                                      "maxDynamicHeight": 9000,
                                       "fontSize": "0.875rem",
-                                      "textStyle": "HEADING"
+                                      "textStyle": "HEADING",
+                                      "minDynamicHeight": 4
                                     },
                                     {
                                       "boxShadow": "none",
@@ -3872,6 +3975,7 @@
                                       "labelTextSize": "0.875rem",
                                       "rightColumn": 21,
                                       "textAlign": "LEFT",
+                                      "dynamicHeight": "FIXED",
                                       "widgetId": "piqofw7yxi",
                                       "logBlackList": {
                                         "isVisible": true,
@@ -3915,8 +4019,10 @@
                                       "renderMode": "CANVAS",
                                       "isLoading": false,
                                       "borderRadius": "0px",
+                                      "maxDynamicHeight": 9000,
                                       "fontSize": "0.875rem",
-                                      "textStyle": "HEADING"
+                                      "textStyle": "HEADING",
+                                      "minDynamicHeight": 4
                                     },
                                     {
                                       "boxShadow": "none",
@@ -3946,6 +4052,7 @@
                                       "labelTextSize": "0.875rem",
                                       "rightColumn": 49,
                                       "textAlign": "LEFT",
+                                      "dynamicHeight": "FIXED",
                                       "widgetId": "rkgnt9rhji",
                                       "logBlackList": {
                                         "isVisible": true,
@@ -3986,7 +4093,9 @@
                                       "renderMode": "CANVAS",
                                       "isLoading": false,
                                       "borderRadius": "0px",
-                                      "fontSize": "1rem"
+                                      "maxDynamicHeight": 9000,
+                                      "fontSize": "1rem",
+                                      "minDynamicHeight": 4
                                     },
                                     {
                                       "boxShadow": "none",
@@ -4016,6 +4125,7 @@
                                       "labelTextSize": "0.875rem",
                                       "rightColumn": 49,
                                       "textAlign": "LEFT",
+                                      "dynamicHeight": "FIXED",
                                       "widgetId": "umrup19kyc",
                                       "logBlackList": {
                                         "isVisible": true,
@@ -4056,7 +4166,9 @@
                                       "renderMode": "CANVAS",
                                       "isLoading": false,
                                       "borderRadius": "0px",
-                                      "fontSize": "1rem"
+                                      "maxDynamicHeight": 9000,
+                                      "fontSize": "1rem",
+                                      "minDynamicHeight": 4
                                     }
                                   ],
                                   "key": "ffadum178l",
@@ -4078,6 +4190,7 @@
                               "labelTextSize": "0.875rem",
                               "backgroundColor": "white",
                               "rightColumn": 64,
+                              "dynamicHeight": "FIXED",
                               "widgetId": "cf9h19e4ec",
                               "containerStyle": "card",
                               "isVisible": true,
@@ -4085,7 +4198,9 @@
                               "parentId": "grx0yxgfwe",
                               "renderMode": "CANVAS",
                               "isLoading": false,
-                              "borderRadius": "0px"
+                              "borderRadius": "0px",
+                              "maxDynamicHeight": 9000,
+                              "minDynamicHeight": 4
                             }
                           ],
                           "key": "ffadum178l",
@@ -4103,14 +4218,7 @@
                         }
                       ],
                       "privateWidgets": {
-                        "Text1Copy": true,
-                        "Text2Copy": true,
-                        "Text2CopyCopyCopy1": true,
-                        "Text2CopyCopyCopyCopy": true,
-                        "Text2CopyCopyCopy": true,
-                        "Text2CopyCopy": true,
-                        "Text1": true,
-                        "Text2": true
+                        "undefined": true
                       },
                       "key": "bkegg2s7tq",
                       "labelTextSize": "0.875rem",
@@ -4154,6 +4262,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 57,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "e970o56qsz",
                       "isVisible": true,
                       "fontStyle": "BOLD",
@@ -4163,7 +4272,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
-                      "fontSize": "1.5rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1.5rem",
+                      "minDynamicHeight": 4
                     }
                   ],
                   "key": "ffadum178l",
@@ -4185,6 +4296,7 @@
               "labelTextSize": "0.875rem",
               "backgroundColor": "#FFFFFF",
               "rightColumn": 32,
+              "dynamicHeight": "FIXED",
               "widgetId": "s927r2321f",
               "containerStyle": "card",
               "isVisible": true,
@@ -4192,7 +4304,9 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "borderRadius": "1.500rem"
+              "borderRadius": "1.500rem",
+              "maxDynamicHeight": 9000,
+              "minDynamicHeight": 4
             }
           ]
         },
@@ -4208,6 +4322,7 @@
             }
           ]
         ],
+        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "My orders",
         "deleted": false,
