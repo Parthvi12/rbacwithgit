@@ -3031,7 +3031,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Admin_select_work_orders",
+              "id": "63971d5f19b0464c979bab4b",
               "name": "select_work_orders",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -3041,7 +3041,7 @@
           ],
           [
             {
-              "id": "Admin_agent_stats",
+              "id": "63971d5f19b0464c979bab41",
               "name": "agent_stats",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -3051,7 +3051,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Admin_select_agent",
+              "id": "63971d5f19b0464c979bab40",
               "name": "select_agent",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -3059,7 +3059,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Admin_total_hours",
+              "id": "63971d5f19b0464c979bab3f",
               "name": "total_hours",
               "confirmBeforeExecute": false,
               "pluginType": "DB",

@@ -1213,7 +1213,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Submit new order_select_category",
+              "id": "63971d5f19b0464c979bab4d",
               "name": "select_category",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -1221,7 +1221,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Submit new order_select_equipment_db",
+              "id": "63971d5f19b0464c979bab3d",
               "name": "select_equipment_db",
               "confirmBeforeExecute": false,
               "pluginType": "DB",

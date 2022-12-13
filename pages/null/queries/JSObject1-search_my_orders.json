@@ -14,8 +14,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Success page",
-    "collectionId": "Success page_JSObject1",
+    "collectionId": "63971d6019b0464c979bab69",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -42,7 +41,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Success page_JSObject1.search_my_orders",
+  "id": "null_JSObject1.search_my_orders",
   "deleted": false,
   "gitSyncId": "63971d2819b0464c979bab1c_2022-12-12T12:23:59.949169Z"
 }
