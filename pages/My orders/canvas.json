@@ -4313,7 +4313,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "My orders_select_work_orders",
+              "id": "63971d5f19b0464c979bab47",
               "name": "select_work_orders",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
